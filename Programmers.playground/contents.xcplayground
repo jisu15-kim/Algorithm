@@ -3,6 +3,7 @@
     <pages>
         <page name='문자열 여러번 뒤집기'/>
         <page name='코드처리하기'/>
-        <page name='주사위게임 3'/>
+        <page name='주사위게임 3'/>
+        <page name='다음에 올 숫자'/>
     </pages>
 </playground>
