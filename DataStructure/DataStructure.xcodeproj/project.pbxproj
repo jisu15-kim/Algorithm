@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F91536382AF6452E0022331C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91536372AF6452E0022331C /* main.swift */; };
 		F94934AB2B00C81A0049D69B /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94934AA2B00C81A0049D69B /* Heap.swift */; };
+		F97D1BA82B09FEC4008B4C6D /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D1BA72B09FEC4008B4C6D /* Queue.swift */; };
+		F9A98C402B0A0DE200AC63DD /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A98C3F2B0A0DE200AC63DD /* HashTable.swift */; };
 		F9AD11CF2AF7C0DB0080699B /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD11CE2AF7C0DB0080699B /* BinarySearch.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		F91536342AF6452E0022331C /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91536372AF6452E0022331C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F94934AA2B00C81A0049D69B /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		F97D1BA72B09FEC4008B4C6D /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		F9A98C3F2B0A0DE200AC63DD /* HashTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
 		F9AD11CE2AF7C0DB0080699B /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +68,8 @@
 				F91536372AF6452E0022331C /* main.swift */,
 				F9AD11CE2AF7C0DB0080699B /* BinarySearch.swift */,
 				F94934AA2B00C81A0049D69B /* Heap.swift */,
+				F97D1BA72B09FEC4008B4C6D /* Queue.swift */,
+				F9A98C3F2B0A0DE200AC63DD /* HashTable.swift */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -128,7 +134,9 @@
 			files = (
 				F9AD11CF2AF7C0DB0080699B /* BinarySearch.swift in Sources */,
 				F91536382AF6452E0022331C /* main.swift in Sources */,
+				F9A98C402B0A0DE200AC63DD /* HashTable.swift in Sources */,
 				F94934AB2B00C81A0049D69B /* Heap.swift in Sources */,
+				F97D1BA82B09FEC4008B4C6D /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
