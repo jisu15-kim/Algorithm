@@ -3,6 +3,8 @@
     <pages>
         <page name='Untitled Page'/>
         <page name='달리기경주'/>
+        <page name='주식가격'/>
+        <page name='추억점수'/>
         <page name='겹치는 선분의 길이'/>
         <page name='다음에 올 숫자'/>
         <page name='다항식 더하기'/>
@@ -14,11 +16,10 @@
         <page name='연속된 수의 합'/>
         <page name='전국대회 선발고사'/>
         <page name='주사위게임 3'/>
-        <page name='주식가격'/>
         <page name='최빈값구하기'/>
         <page name='코드처리하기'/>
         <page name='특이한 정렬'/>
         <page name='OX퀴즈'/>
-        <page name='추억점수'/>
+        <page name='대충만든자판'/>
     </pages>
 </playground>
