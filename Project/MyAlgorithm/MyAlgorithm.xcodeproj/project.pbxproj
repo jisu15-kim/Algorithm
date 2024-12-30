@@ -70,6 +70,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		D824C5AB2D1D7D0F007F7F50 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D83FF8C72D22DF2700BBBD44 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		D869533F2D043E240040D748 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -143,6 +161,8 @@
 		D80FBEB12D19BC9F00935952 /* 최소직사각형 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "최소직사각형"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80FBED22D19BDF200935952 /* 모의고사 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "모의고사"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D824C56C2D1D31CE007F7F50 /* 이모티콘할인행사 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "이모티콘할인행사"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D824C5AD2D1D7D10007F7F50 /* 퍼즐게임챌린지 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "퍼즐게임챌린지"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83FF8C92D22DF2700BBBD44 /* 체육복 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "체육복"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86953412D043E240040D748 /* MyAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		D869534F2D0440ED0040D748 /* ParenthesisString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ParenthesisString; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88DEB142D130048000FE8B8 /* 카펫 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "카펫"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,6 +206,16 @@
 		D824C56D2D1D31CE007F7F50 /* 이모티콘할인행사 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "이모티콘할인행사";
+			sourceTree = "<group>";
+		};
+		D824C5AE2D1D7D10007F7F50 /* 퍼즐게임챌린지 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "퍼즐게임챌린지";
+			sourceTree = "<group>";
+		};
+		D83FF8CA2D22DF2700BBBD44 /* 체육복 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "체육복";
 			sourceTree = "<group>";
 		};
 		D86953432D043E240040D748 /* MyAlgorithm */ = {
@@ -275,6 +305,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D824C5AA2D1D7D0F007F7F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83FF8C62D22DF2700BBBD44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D869533E2D043E240040D748 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,6 +388,8 @@
 				D80FBED32D19BDF200935952 /* 모의고사 */,
 				D824C56D2D1D31CE007F7F50 /* 이모티콘할인행사 */,
 				F904EC7D2D146D2D008982D3 /* 타겟넘버 */,
+				D824C5AE2D1D7D10007F7F50 /* 퍼즐게임챌린지 */,
+				D83FF8CA2D22DF2700BBBD44 /* 체육복 */,
 				D86953422D043E240040D748 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -365,6 +411,8 @@
 				D80FBED22D19BDF200935952 /* 모의고사 */,
 				D824C56C2D1D31CE007F7F50 /* 이모티콘할인행사 */,
 				F904EC7C2D146D2D008982D3 /* 타겟넘버 */,
+				D824C5AD2D1D7D10007F7F50 /* 퍼즐게임챌린지 */,
+				D83FF8C92D22DF2700BBBD44 /* 체육복 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -524,6 +572,50 @@
 			);
 			productName = "이모티콘할인행사";
 			productReference = D824C56C2D1D31CE007F7F50 /* 이모티콘할인행사 */;
+			productType = "com.apple.product-type.tool";
+		};
+		D824C5AC2D1D7D0F007F7F50 /* 퍼즐게임챌린지 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D824C5B32D1D7D10007F7F50 /* Build configuration list for PBXNativeTarget "퍼즐게임챌린지" */;
+			buildPhases = (
+				D824C5A92D1D7D0F007F7F50 /* Sources */,
+				D824C5AA2D1D7D0F007F7F50 /* Frameworks */,
+				D824C5AB2D1D7D0F007F7F50 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D824C5AE2D1D7D10007F7F50 /* 퍼즐게임챌린지 */,
+			);
+			name = "퍼즐게임챌린지";
+			packageProductDependencies = (
+			);
+			productName = "퍼즐게임챌린지";
+			productReference = D824C5AD2D1D7D10007F7F50 /* 퍼즐게임챌린지 */;
+			productType = "com.apple.product-type.tool";
+		};
+		D83FF8C82D22DF2700BBBD44 /* 체육복 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83FF8CF2D22DF2700BBBD44 /* Build configuration list for PBXNativeTarget "체육복" */;
+			buildPhases = (
+				D83FF8C52D22DF2700BBBD44 /* Sources */,
+				D83FF8C62D22DF2700BBBD44 /* Frameworks */,
+				D83FF8C72D22DF2700BBBD44 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D83FF8CA2D22DF2700BBBD44 /* 체육복 */,
+			);
+			name = "체육복";
+			packageProductDependencies = (
+			);
+			productName = "체육복";
+			productReference = D83FF8C92D22DF2700BBBD44 /* 체육복 */;
 			productType = "com.apple.product-type.tool";
 		};
 		D86953402D043E240040D748 /* MyAlgorithm */ = {
@@ -711,6 +803,12 @@
 					D824C56B2D1D31CE007F7F50 = {
 						CreatedOnToolsVersion = 16.1;
 					};
+					D824C5AC2D1D7D0F007F7F50 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					D83FF8C82D22DF2700BBBD44 = {
+						CreatedOnToolsVersion = 16.1;
+					};
 					D86953402D043E240040D748 = {
 						CreatedOnToolsVersion = 16.1;
 					};
@@ -762,6 +860,8 @@
 				D80FBED12D19BDF200935952 /* 모의고사 */,
 				D824C56B2D1D31CE007F7F50 /* 이모티콘할인행사 */,
 				F904EC7B2D146D2D008982D3 /* 타겟넘버 */,
+				D824C5AC2D1D7D0F007F7F50 /* 퍼즐게임챌린지 */,
+				D83FF8C82D22DF2700BBBD44 /* 체육복 */,
 			);
 		};
 /* End PBXProject section */
@@ -810,6 +910,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D824C5682D1D31CE007F7F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D824C5A92D1D7D0F007F7F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83FF8C52D22DF2700BBBD44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1012,6 +1126,50 @@
 			name = Debug;
 		};
 		D824C5712D1D31CE007F7F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 846TMZL7WC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D824C5B12D1D7D10007F7F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 846TMZL7WC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D824C5B22D1D7D10007F7F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 846TMZL7WC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D83FF8CD2D22DF2700BBBD44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 846TMZL7WC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D83FF8CE2D22DF2700BBBD44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1358,6 +1516,24 @@
 			buildConfigurations = (
 				D824C5702D1D31CE007F7F50 /* Debug */,
 				D824C5712D1D31CE007F7F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D824C5B32D1D7D10007F7F50 /* Build configuration list for PBXNativeTarget "퍼즐게임챌린지" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D824C5B12D1D7D10007F7F50 /* Debug */,
+				D824C5B22D1D7D10007F7F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83FF8CF2D22DF2700BBBD44 /* Build configuration list for PBXNativeTarget "체육복" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83FF8CD2D22DF2700BBBD44 /* Debug */,
+				D83FF8CE2D22DF2700BBBD44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
